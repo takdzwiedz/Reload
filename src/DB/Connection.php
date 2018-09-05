@@ -1,6 +1,5 @@
 <?php
 
-
 namespace ReloadProject\ReloadNamespace\DB;
 
 use PDO;
@@ -20,11 +19,9 @@ class Connection
     public function openConnection()
 
     {
-
         try
 
         {
-
             $this->con = new PDO($this->server, $this->user,$this->pass,$this->options);
 
             return $this->con;
@@ -44,7 +41,6 @@ class Connection
     public function closeConnection() {
 
         $this->con = null;
-
     }
 
 }
