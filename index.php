@@ -16,6 +16,8 @@ include 'Psr4Autoloader.php';
     <form method="post">
         <input name="Test_Delivery_Truck" type="submit" value="Test Delivery Truck">
         <input name="Test_Delivery_Truck_Heavy" type="submit" value="Test Delivery Truck Heavy">
+        <hr>
+        <input name="Reload" type="submit" value="Reload">
     </form>
 
 
@@ -39,7 +41,11 @@ if (isset($_POST['Test_Delivery_Truck_Heavy']))
     $test->insertHeavyItems();
 }
 
-$test2 = new \ReloadProject\ReloadNamespace\ReloadClass\Reload();
-$test2->loadLorry();
+if (isset($_POST['Reload']))
+{
+
+    $test2 = new \ReloadProject\ReloadNamespace\ReloadClass\Reload();
+    $test2->loadStock();
+}
 
 ?>
