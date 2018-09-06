@@ -14,8 +14,8 @@ include 'Psr4Autoloader.php';
 
 <body>
     <form method="post">
-        <input name="Test_Delivery_Truck" type="submit" value="Test Delivery Truck">
-        <input name="Test_Delivery_Truck_Heavy" type="submit" value="Test Delivery Truck Heavy">
+        <input name="Test_Delivery_Truck" type="submit" value="Test Delivery Truck" title="Test, random stock load by random quantity of parcels from between 5 and 40 parcels of the weight from between 10 and 20 kg each.">
+        <input name="Test_Delivery_Truck_Heavy" type="submit" value="Test Delivery Truck Heavy" title=>
         <hr>
         <input name="Reload" type="submit" value="Reload">
     </form>

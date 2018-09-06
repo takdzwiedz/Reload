@@ -18,7 +18,9 @@ class Status_Changer
 
             $db = $database->openConnection();
 
-            $sql = "UPDATE `" . $table . "` SET `status` = '0' WHERE `item_id` BETWEEN '" . $index_min . "' AND '" . $index_max . "'";
+            $departure_date = time();
+
+            $sql = "UPDATE `" . $table . "` SET `status` = '0', `departure_date` = " . $departure_date . " WHERE `item_id` BETWEEN '" . $index_min . "' AND '" . $index_max . "'";
 
             $db->exec($sql);
 
