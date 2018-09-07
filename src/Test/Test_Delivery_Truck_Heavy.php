@@ -9,7 +9,7 @@ class Test_Delivery_Truck_Heavy
 
 {
 
-    public function insertHeavyItems()
+    public function __construct()
     {
 
         try

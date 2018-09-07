@@ -18,3 +18,5 @@ Założenia:
 3. przy tworzeniu, staraj się, aby kod był możliwy do zastosowania zarówno z przeglądarki, jak i z linii poleceń
 
 4. Liczymy na kreatywność i indywidualne rozwiązanie zadania
+
+

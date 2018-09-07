@@ -22,13 +22,12 @@ class Test_Delivery_Truck
 
     }
 
-    public function randTestDeliveryBoxWeight()
+    public function __construct()
     {
 
         try
 
         {
-
             $database = new Connection();
             $arrival_date = time();
             $status = "1";
@@ -38,7 +37,7 @@ class Test_Delivery_Truck
             for ($i = 0; $i < $this->randTestDeliveryQuantity(); $i++)
             {
 
-                $weight = rand(10,20);
+                $weight = rand(1000,2000)/100;
 
                 $sql = "INSERT INTO item (weight, arrival_date, status) VALUES ( :weight, :arrival_date, :status)";
 
