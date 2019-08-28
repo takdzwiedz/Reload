@@ -10,13 +10,3 @@ Zadaniem osoby pakującej jest przepakowanie towaru z ciężarówki do samochod�
 Na zadanie składają się następujące punkty:
 1. dostarczenie osobie odbierającej towaru do rozładunku,
 2. pomoc w przeładunku.
-
-Założenia:
-1. zadanie proszę wykonać w technologii PHP (najlepiej w wersji 7.1),
-2. kod nie musi być uruchamialny, skup się na jakości wykonania zadania, a nie na konfiguracji środowiska
-
-3. przy tworzeniu, staraj się, aby kod był możliwy do zastosowania zarówno z przeglądarki, jak i z linii poleceń
-
-4. Liczymy na kreatywność i indywidualne rozwiązanie zadania
-
-
